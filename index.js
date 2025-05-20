@@ -19,7 +19,7 @@ const databaseURL = process.env.DATABASE_URL;
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://artalk-chat.vercel.app"
+        "https://artalk-backend.onrender.com/"
     ],
     methods: ["GET", "PUT", "POST", "PATCH", "DELETE"],
     credentials: true,
